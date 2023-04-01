@@ -1,12 +1,20 @@
 console.log("here")
 const express = require('express');
+console.log("here")
 const path = require('path');
+console.log("here")
 const bodyParser = require('body-parser');
+console.log("here")
 const exphbs = require('express-handlebars');
+console.log("here")
 const expressValidator = require('express-validator');
+console.log("here")
 const flash = require('connect-flash');
+console.log("here")
 const session = require('express-session');
+console.log("here")
 const passport = require('passport');
+console.log("here")
 const mongoose = require('mongoose');
 console.log("here2") ;
 const app = express();
