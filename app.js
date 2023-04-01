@@ -1,3 +1,4 @@
+console.log("here")
 const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
@@ -7,7 +8,7 @@ const flash = require('connect-flash');
 const session = require('express-session');
 const passport = require('passport');
 const mongoose = require('mongoose');
-
+console.log("here2") ;
 const app = express();
 
 const port = process.env.PORT || 3000;
