@@ -1,5 +1,5 @@
 const express = require('express');
-const path = require('path');
+// const path = require('path');
 const bodyParser = require('body-parser');
 const exphbs = require('express-handlebars');
 const expressValidator = require('express-validator');
@@ -19,7 +19,7 @@ app.engine('handlebars', exphbs({defaultLayout:'main'}));
 app.set('view engine', 'handlebars');
 
 // Static Folder
-app.use(express.static(path.join(__dirname, 'public')));
+// app.use(express.static(path.join(__dirname, 'public')));
 
 // Body Parser Middleware
 app.use(bodyParser.json());
